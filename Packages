@@ -1,0 +1,67 @@
+Package: preferenceloader
+Version: 4.0
+Architecture: iphoneos-arm
+Maintainer: Hoà Huỳnh
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_4.0_iphoneos-arm.deb
+Size: 16240
+MD5sum: 49f09bf6ed4e003a9bfc59b7cc57b089
+SHA1: 111f08eef01840a6d16449a2143ce197ddaa1091
+SHA256: 93c01e10f0e2e9a8c2820cc9944d3368f665947a5ced651c050cdf7b93f7972e
+Section: System
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Dev: dustinhowett
+Name: PreferenceLoader
+
+Package: safemode
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Hoà Huỳnh
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Filename: debs/safemode_1.0_iphoneos-arm.deb
+Size: 452456
+MD5sum: eb1b1cf989e0b828d288b223f0d07677
+SHA1: 3c76e4c88561155df30d7fa8f003deaab8815708
+SHA256: c84101b14f2a44c4e2a6d8897cda51057ce12e7508e649a90e86d36cb477830e
+Section: System
+Description: Safe Mode app cho SaiGon Stuti
+Author: Hoà Huỳnh
+Name: Safe Mode (libhooker)
+
+Package: safemode
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Hoà Huỳnh
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Filename: debs/safemode_1.1_iphoneos-arm.deb
+Size: 452468
+MD5sum: b626d155bf511e94763fc5fe5a8cb5a0
+SHA1: 48026fcc85bb09b7dbaa42f8dda4ca1c5bf41adf
+SHA256: a2e8dd3118db9c8410f3a389c83352261f759e90bb4bb6da71d82aa929b6d8de
+Section: System
+Description: Safe Mode app cho SaiGon Stuti
+Author: Hoà Huỳnh
+Name: Safe Mode
+
+Package: saigonstuti
+Version: 1.0~Beta
+Architecture: iphoneos-arm
+Maintainer: Hoà Huỳnh
+Depends: firmware (>= 11.0), cy+cpu.arm64, safemode
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: debs/saigonstuti_1.0~Beta_iphoneos-arm.deb
+Size: 57020
+MD5sum: 3f7fb679ab7645f6c1ff70fe1da5212d
+SHA1: 3082b14315c87e60a7594af4e3e24282f27e11e4
+SHA256: 1fcdd92e37896b32281422307be2c802dc39de7a87bcc776b9e3f5db8e72c4a0
+Section: System
+Description: Chất nền trên SaiGon Jailbreak
+Author: Hoà Huỳnh
+Icon: https://h0ahuynh.github.io/H0ahuynh/CydiaIcon.png
+Name: SaiGon Stuti
+Sileodepiction: https://h0ahuynh.github.io/H0ahuynh/dt/SaiGonStuti.json
+
