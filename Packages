@@ -1,3 +1,19 @@
+Package: com.hoahuynh.saigonuntethered
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Hoà Huỳnh
+Depends: firmware (>=14.0)
+Filename: debs/com.hoahuynh.saigonuntethered_1.0_iphoneos-arm.deb
+Size: 3950850
+MD5sum: 6668d602cbd5734571cc5b8171a59212
+SHA1: 7bca11a23ca4a284e53c7eaa9674bc48e2893811
+SHA256: bdede1c6661e75b57e2fdfe708925bbdbd64a7395d48df931caa1ffb9471c008
+Section: Applications
+Description: SaiGon Untethered
+Author: Hoà Huỳnh
+Name: SaiGon Untethered
+Tags: compatible_min::ios14.0
+
 Package: preferenceloader
 Version: 4.0
 Architecture: iphoneos-arm
